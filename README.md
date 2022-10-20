@@ -3,4 +3,5 @@
 <h3><b>Pontos relevantes sobre o projeto:</b></h3>
 <li>Responsividade com @media query</li>
 <li>Utilização de formulário com HTML + CSS Puro</li>
+<li>Utilização simples do Javascript (com alert) para comunicar ao usuário que os dados foram enviados com sucesso</li>
 
