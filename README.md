@@ -6,6 +6,6 @@
 <li>Utilização simples do Javascript (com alert) para comunicar ao usuário que os dados foram enviados com sucesso</li>
 
 <h3>Futuras melhorias</h3>
-◻️ Implementar mais interatividade com JS <br>
-◻️ Colocar mais uma página contendo carrousel com fotos da empresa <br>
+◻️ Melhorar o layout com CSS - Bootstrap
+◻️ Implementar mais interatividade com JS criando um image gallery filter contendo alguns produtos que a empresa vende <br>
 ◻️ Implementar React
