@@ -7,5 +7,5 @@
 
 <h3>Futuras melhorias</h3>
 ◻️ Melhorar o layout com CSS - Bootstrap; <br>
-◻️ Implementar mais interatividade com JS criando um image gallery filter contendo alguns produtos que a empresa vende; <br>
+✅ Implementar mais interatividade com JS criando um image gallery filter contendo alguns produtos que a empresa vende; <br>
 ◻️ Implementar React.
