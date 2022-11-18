@@ -12,9 +12,9 @@
 }
 
 .header {
+  height: 105px;
   width: 100%;  
-  position: fixed;
-  background-color: white;
+  background-color: white;  
 }
 
 .menu{  
@@ -168,12 +168,11 @@ a {
   margin-right: 10px;
   border-radius: 10px;
 }
-.footer{
-  color: rgb(14, 13, 13);
+.footer{  
   font-family: 'Source Sans Pro', sans-serif;   
   background-color: rgb(248, 246, 246);
   width: 100%;
-  height: 30px;  
+  height: 32px;  
   text-align: center;
   position: relative;  
   bottom: 0;
@@ -250,24 +249,18 @@ form input[type=submit]:hover{
 
 img {
   max-width: 100%;
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 .gallery {
-  width: 100%;
-  display: block;
+  width: 100%;  
   min-height: 100vh;
-  background: linear-gradient(
-90deg,
-rgb(255, 255, 255) 25%,
-rgb(212, 113, 0) 100%,
-rgb(255, 255, 255) 25%
-);
+  background: rgb(244, 244, 244);
   padding: 100px 0;
 }
 
 .gallery-item-inner {
-  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.35);    
+  box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.35);   
 }
 
 .gallery .gallery-filter {
@@ -275,10 +268,12 @@ rgb(255, 255, 255) 25%
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
+  font-family: sans-serif;
+  
 }
 
 .gallery .gallery-filter .filter-item {
-  color: #ffffff;
+  color: #606060;
   font-size: 18px;
   text-transform: uppercase;
   display: inline-block;
