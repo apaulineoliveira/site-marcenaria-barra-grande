@@ -13,6 +13,8 @@
   <code>const filterContainer = document.querySelector(".gallery-filter")</code> <br></br>
   <code>filterContainer.querySelector(".active").classList.remove("active");</code><br></br></li>
 <li>Foi utilizado o método <code>forEach()</code> para percorrer o array e passar uma função de callback para cada elemento da mesma, juntamente ao valor atual (item) e logo em seguida, passada uma estrutura condicional <code>if/else</code>.</li>
+<h3>Sobre o Bootstrap</h3>
+<li>Para construir o slide contendo imagens que remetem ao negócio, botões e texto, foi utilizado o Bootstrap. Com as suas respectivas classes do framework foi possível estruturar o carousel, contendo todas as informações anteriormente citadas.</li>
 
 <h3>Futuras melhorias</h3>
 ✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
