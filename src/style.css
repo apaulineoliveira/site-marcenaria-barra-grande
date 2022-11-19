@@ -215,9 +215,8 @@ form input[type=submit]:hover{
   background-color:  rgb(207, 143, 113);
 }
 .formulario h2 {
-  font-size:150%;
-  color: rgb(0, 0, 0) ;
-  padding: 2%;
+  font-size: 20px;
+  color: rgb(107, 107, 107);
   font-family: 'Source Sans Pro', sans-serif;  
   text-align: center;
   margin: 12px;
