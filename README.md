@@ -6,6 +6,6 @@
 <li>Utilização simples do Javascript (com alert) para comunicar ao usuário que os dados foram enviados com sucesso</li>
 
 <h3>Futuras melhorias</h3>
-◻️ Melhorar o layout com CSS - Bootstrap; <br>
-✅ Implementar mais interatividade com JS criando um image gallery filter contendo alguns produtos que a empresa vende; <br>
+✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
+✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa vende; <br>
 ◻️ Implementar React.
