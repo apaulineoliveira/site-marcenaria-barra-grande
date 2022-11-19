@@ -7,6 +7,13 @@
 <li>Utilização do bootstrap para construir o slide</li>
 <li>Utilização simples do Javascript (com alert) para comunicar ao usuário que os dados foram enviados com sucesso</li>
 
+<h3>Sobre o filtro de galeria </h3>
+<li>Utilizei maioritariamente DOM (Document Object Model) para fazer as interações com o HTML e CSS, sobretudo, utilizando <code>querySelector()</code>.</li>
+<li>Com a utilização do <code>querySelector()</code> foi possível "pegar" os seletores de estilo CSS e atribuí-los a comandos de interatividade com javascript. Como podem ser evidenciados nos códigos:<br></br>
+  <code>const filterContainer = document.querySelector(".gallery-filter")</code> <br></br>
+  <code>filterContainer.querySelector(".active").classList.remove("active");</code><br></br></li>
+<li>Foi utilizado o método <code>forEach()</code> para percorrer o array e passar uma função de callback para cada elemento da mesma, juntamente ao valor atual (item) e logo em seguida, passada uma estrutura condicional <code>if/else</code>.</li>
+
 <h3>Futuras melhorias</h3>
 ✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
 ✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa vende; <br>
