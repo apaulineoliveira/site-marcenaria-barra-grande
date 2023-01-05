@@ -19,4 +19,29 @@
 <h3>Futuras melhorias</h3>
 ✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
 ✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa vende; <br>
-◻️ Implementar React.
+◻️ Implementar React Js.
+
+
+<h1>In English</h1>
+# 🎯 Objective
+<p>The goal of this project was to create a website (front-end) for a company using pure HTML + CSS and a little bit of Javascript. Throughout the entire project, I used cores that referred to the company's business, in addition to prioritizing simple, fluid and intuitive navigation, thinking about the excellent user experience. In the future I intend to make new interactive updates with JS and React.</p>
+<h3><b>Relevant points about the project:</b></h3>
+<li>Responsiveness with @media query</li>
+<li>Using a form with pure HTML + CSS</li>
+<li>Using Javascript to create the gallery filter</li>
+<li>Using bootstrap to build the slide</li>
+<li>Simple use of Javascript (with alert) to inform the user that the data was successfully sent</li>
+
+<h3>About the gallery filter</h3>
+<li>I mostly used DOM (Document Object Model) to do the reflections with HTML and CSS, mainly using <code>querySelector()</code>.</li>
+<li>By using <code>querySelector()</code> it was possible to "take" CSS style selectors and assign them to interactivity commands with javascript. As can be evidenced in the codes:<br></br>
+    <code>const filterContainer = document.querySelector(".gallery-filter")</code> <br></br>
+    <code>filterContainer.querySelector(".active").classList.remove("active");</code><br></br></li>
+<li>The <code>forEach()</code> method was used to traverse the array and pass a callback function for each element of the same, together with the current value (item) and soon after, a conditional structure was passed <code>if/else</code>.</li>
+<h3>About Bootstrap</h3>
+<li>To build the slide containing images that refer to the business, buttons and text, Bootstrap was used. With their respective framework classes, it was possible to structure the carousel, containing all the information mentioned above.</li>
+
+<h3>Future Improvements</h3>
+✅ Improve the layout with CSS - Add Slider with images that refer to the company's daily life - with <b>Bootstrap</bold>; <br>
+✅ Implement more interactivity with JS by creating a <b>gallery filter</b> containing the products that the company sells; <br>
+◻️ Implement React Js.
