@@ -22,7 +22,9 @@
 ◻️ Implementar React Js.
 
 
-<h1>In English</h1>
+<br></br>
+<br></br>
+
 # 🎯 Objective
 <p>The goal of this project was to create a website (front-end) for a company using pure HTML + CSS and a little bit of Javascript. Throughout the entire project, I used cores that referred to the company's business, in addition to prioritizing simple, fluid and intuitive navigation, thinking about the excellent user experience. In the future I intend to make new interactive updates with JS and React.</p>
 <h3><b>Relevant points about the project:</b></h3>
