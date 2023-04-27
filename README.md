@@ -5,7 +5,7 @@
   <h3><b>Pontos relevantes sobre o projeto:</b></h3>
     <ul>
       <li>Responsividade com @media query;</li>
-      <li>Implementação de formulário com html + css ;</li>
+      <li>Implementação de formulário com html + css;</li>
       <li>Utilização de Javascript para criar o filtro de galeria, e alert para comunicar ao usuário que os dados foram enviados com sucesso;</li>
       <li>Utilização do bootstrap para construir o slide estilo carrousel composto por fotos dos produtos da empresa.</li>      
     </ul>
