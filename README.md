@@ -15,7 +15,7 @@
     <p>Utilizei maioritariamente DOM (Document Object Model) para fazer as interações com o html e css, sobretudo, utilizando <code>querySelector()</code>. Com essa utilização foi possível "pegar" os seletores de estilo css e atribuí-los à comandos de interatividade com js. Como podem ser evidenciados nos códigos abaixo:</p>
   
   ```
-  const filterContainer = document.querySelector(".gallery-filter")
+  const filterContainer = document.querySelector(".gallery-filter");
   filterContainer.querySelector(".active").classList.remove("active");
   ```
 <br>
