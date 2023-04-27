@@ -1,11 +1,11 @@
 <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" height="50" width="50"/>
 
 <h1 align="center">Objetivo</h1>
-  <p>O inuito deste projeto foi criar um site (front-end) para uma empresa utilizando html, css puro e um pouco de Javascript. Ao longo de todo o projeto utilizei cores que remetessem ao negócio da empresa, além de priorizar uma navegação simples, fluída e intuitiva pensando na excelente experiência do usuário. Futuramente será necessário fazer novas atualizações interativas com JS e React, de acordo às necessidades da empresa.</p>
+  <p>O inuito deste projeto foi criar um site (front-end) para uma empresa utilizando html, css e um pouco de Javascript. Ao longo de todo o projeto utilizei cores que remetessem ao negócio da empresa, além de priorizar uma navegação simples, fluída e intuitiva pensando na excelente experiência do usuário. Futuramente será necessário fazer novas atualizações interativas com JS e React, de acordo às necessidades da empresa.</p>
   <h3><b>Pontos relevantes sobre o projeto:</b></h3>
     <ul>
       <li>Responsividade com @media query;</li>
-      <li>Implementação de formulário com html + css puro;</li>
+      <li>Implementação de formulário com html + css ;</li>
       <li>Utilização de Javascript para criar o filtro de galeria, e alert para comunicar ao usuário que os dados foram enviados com sucesso;</li>
       <li>Utilização do bootstrap para construir o slide estilo carrousel composto por fotos dos produtos da empresa.</li>      
     </ul>
