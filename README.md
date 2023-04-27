@@ -26,6 +26,8 @@
 <h3 align="center">Sobre o Bootstrap</h3>
   <p>Para construir o carrousel contendo imagens que remetem ao negócio, botões e texto, foi utilizado o Bootstrap. Com as suas respectivas classes do framework foi possível estruturar e estilizar, contendo todas as informações anteriormente citadas.</p>
 
+#
+<br>
 <h3>Futuras implementações</h3>
 ✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
 ✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa possui/vende; <br>
