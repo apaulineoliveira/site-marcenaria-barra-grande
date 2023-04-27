@@ -9,8 +9,9 @@
       <li>Utilização de Javascript para criar o filtro de galeria, e alert para comunicar ao usuário que os dados foram enviados com sucesso;</li>
       <li>Utilização do bootstrap para construir o slide estilo carrousel composto por fotos dos produtos da empresa.</li>      
     </ul>
-    
-  <h3>Sobre o filtro de galeria</h3>
+   
+  <br>
+  <h3 align="center">Sobre o filtro de seção</h3>
     <p>Utilizei maioritariamente DOM (Document Object Model) para fazer as interações com o html e css, sobretudo, utilizando <code>querySelector()</code>. Com essa utilização foi possível "pegar" os seletores de estilo css e atribuí-los à comandos de interatividade com js. Como podem ser evidenciados nos códigos abaixo:</p>
   
   ```
@@ -19,14 +20,15 @@
   ```
 <br>
 
-<p>Foi utilizado o método <code>forEach()</code> para percorrer o array e passar uma função de <b>callback</b> para cada elemento da mesma juntamente ao valor atual (<code>item</code>) e, logo em seguida, passada uma estrutura condicional <code>if|else</code>.</p>
+<p>Foi utilizado o método <code>forEach()</code> para percorrer o array e passar uma função de <b>callback</b> para cada elemento da mesma juntamente ao valor atual (<code>item</code>) e, logo em seguida, passada uma estrutura condicional <code>if/else</code>.</p>
 
-  <h3>Sobre o Bootstrap</h3>
-<li>Para construir o slide contendo imagens que remetem ao negócio, botões e texto, foi utilizado o Bootstrap. Com as suas respectivas classes do framework foi possível estruturar o carousel, contendo todas as informações anteriormente citadas.</li>
+<br>
+<h3 align="center">Sobre o Bootstrap</h3>
+  <p>Para construir o carrousel contendo imagens que remetem ao negócio, botões e texto, foi utilizado o Bootstrap. Com as suas respectivas classes do framework foi possível estruturar e estilizar, contendo todas as informações anteriormente citadas.</p>
 
-<h3>Futuras melhorias</h3>
+<h3>Futuras implementações</h3>
 ✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
-✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa vende; <br>
+✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa possui/vende; <br>
 ◻️ Implementar React Js.
 
 
