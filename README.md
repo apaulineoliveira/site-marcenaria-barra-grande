@@ -29,9 +29,9 @@
 #
 <br>
 <h3>Futuras implementações</h3>
-✅ Melhorar o layout com CSS - Adicionar Slider com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
+✅ Melhorar o layout com css - Construir um carrousel com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
 ✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa possui/vende; <br>
-◻️ Implementar React Js.
+◻️ Funcionalidades com React Js.
 
 
 
