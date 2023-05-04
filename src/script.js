@@ -2,7 +2,7 @@ function Enviar() {
     var nome = document.getElementById("nome");
     
     if (nome.value != "") {
-        alert('Obrigado, '  + nome.value +  ' seu projeto foi encaminhado para a nossa equipe com sucesso!');     
+        alert('Obrigado, '  + nome.value + '!' + ' Seu projeto foi encaminhado para a nossa equipe com sucesso! Nosso time entrará em contato através do email que você nos mandou. Atenciosamente: Barra Grande Marcenaria.');     
     }
 }
 

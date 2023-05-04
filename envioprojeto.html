@@ -28,11 +28,14 @@
 <div class="formulario">
    <form>
       <h2>Nos envie o seu projeto!</h2>
-      <input id="nome" type="text" name="nome" placeholder="Nome"/>        
-      <input type="text" name="descricao" placeholder="Descrição do Projeto">
-      <input type="file" name="descricao" placeholder="Faça upload do seu arquivo" />
-      <input type="submit" name="acao" onclick="Enviar();" value="Enviar"/>
-    </form>
+         <input id="nome" type="text" name="nome" placeholder="Nome"/>  
+         <input type="email" name="mail" placeholder="Email para contato"/>      
+         <input type="text" name="descricao" placeholder="Descrição do Projeto">
+         <div id="enviodeprojeto">
+         <input type="file" name="descricao" placeholder="Faça upload do seu arquivo" />
+         </div>
+         <input type="submit" name="acao" onclick="Enviar();" value="Enviar"/>
+   </form>
   </div>  
 
 <script src="src/script.js"></script>
