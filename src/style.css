@@ -7,17 +7,19 @@
   padding: 30px;
   width: 200px;
   margin: -18px; 
-  margin-left: 2px;  
+  margin-left: 2px; 
+  margin-top: 5px; 
   float: left;    
 }
 
 .header {
-  height: 105px;
+  height: 5vh;
   width: 100%;  
   background-color: white;  
 }
 
 .menu{  
+  margin-top: 3vh;
   list-style: none;
   font-family: 'Source Sans Pro', sans-serif;     
   float: right;  
@@ -40,7 +42,7 @@
   padding: 10px;
   transition: 0.5s;
   border-radius: 5px;
-  border-style: double;
+  border-style: solid;
 }
 .link-menu{
   text-decoration: none;
@@ -84,7 +86,7 @@ a {
   text-align: center;
 }
 .imagembg img {
-  width: 100%;  
+  width: 80%;  
 }
 .sobreconteudo h1 {
   text-align: center;
@@ -103,8 +105,7 @@ a {
 }
 #diferencial {    
   background-color: #fff;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-direction: column;  
   padding-top: 50px;
 }
 #diferencial h2{  
@@ -117,23 +118,21 @@ a {
 }
 .list-diferenciais{
   font-family: sans-serif;
-  width: 100%;
+  width: 60%;
+  margin-left: 50vh;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  align-items: center;
+  
 }
 .item-diferencial{
   flex: 1;
-  border: 1px solid #5b310550;
+  border: 1.5px solid #dad9d950;
   margin-right: 20px;
   padding: 10px;
   max-width: 240px;
   border-radius: 20px;  
 }
-.item-diferencial .btn{
-  margin: auto;
-  margin-bottom: 20px;
-}
+
 .item-diferencial h3{
   font-size: 24px;
   display: flex;
@@ -143,10 +142,11 @@ a {
 }
 .item-diferencial h3::after{
   content: "";
-  background-color: #ce734c;
-  width: 100%; 
-  height: 3px;
+  background-color: #f0f0f0;
+  width: 50%; 
+  height: 1px;
   margin-top: 20px;  
+  margin-left: 50px;
   margin-bottom: 10px;
 }
 .item-diferencial ul{
@@ -162,9 +162,9 @@ a {
 }
 .item-diferencial ul li::before{
   content: "";
-  width: 10px;
-  height: 10px;
-  background-color: #741f096a;
+  width: 4px;
+  height: 4px;
+  background-color: #5814016a;
   margin-right: 10px;
   border-radius: 10px;
 }
@@ -179,10 +179,10 @@ a {
   margin: 0;
 }
 .formulario {  
-  background-color:  rgb(242, 242, 242) ;
+  background-color:  rgb(248, 248, 248) ;
   max-width: 400px;  
   padding: 15px;     
-  border: 2px solid #ffffff;
+  border: 2px solid #fbf8f8;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -190,18 +190,32 @@ a {
   margin-left: 38%;
  
 }
-
+form input[type=email],
 form input[type=text],
 form input[type=txt] {
-  width: 100%;
+  width: 95%;
   height: 35px;
   border: 1px solid #e0e0e0;
   padding-left: 2px;
   margin: 10px 0;
-  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 6px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+form input[type=file] {
+  color: gray;
+  text-align: center;
+}
+
+#enviodeprojeto {
+  margin-left: 25px;
+  margin-top: 20px;
 }
 form input[type=submit] {  
-  margin: 20%;  
+  margin: 10%;  
+  margin-left: 65px;
   width: 56%;
   height: 30px;
   cursor: pointer;
@@ -211,8 +225,9 @@ form input[type=submit] {
   border-radius: 15px;
   transition: 1.25s;
 }
+
 form input[type=submit]:hover{
-  background-color:  rgb(207, 143, 113);
+  background-color:  rgb(13, 125, 58);
 }
 .formulario h2 {
   font-size: 20px;
@@ -220,6 +235,7 @@ form input[type=submit]:hover{
   font-family: 'Source Sans Pro', sans-serif;  
   text-align: center;
   margin: 12px;
+  font-weight: bold;
 } 
 .contato h1 {
   font-family: sans-serif;
@@ -235,7 +251,10 @@ form input[type=submit]:hover{
   margin-bottom: 40px; 
 }
 
-
+#carouselSite {
+  width: 100vh;
+  margin-left: 50vh;
+}
 
 .container {
   max-width: 1170px;
@@ -291,7 +310,7 @@ img {
 
 .gallery .gallery-item {
   width: calc(100% / 3);
-  padding: 15px;
+  padding: 10px;
 }
 
 .gallery .gallery-item-inner img {
@@ -299,7 +318,7 @@ img {
 }
 
 .gallery .gallery-item.show {
-  animation: fadeIn 0.5s ease;
+  animation: fadeIn 0.8s ease;
 }
 
 @keyframes fadeIn {
