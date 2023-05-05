@@ -8,7 +8,7 @@
   width: 40vh;
   margin: -18px; 
   margin-left: 30px; 
-  margin-top: 5px; 
+  margin-top: -1%; 
   float: left;    
 }
 
@@ -49,15 +49,15 @@
   text-decoration: none;
   color: rgb(20, 20, 20);
 }  
-.imageminicial img {
-  width: 100%;
-  height: 100%;
+#imageminicial img {
+  margin-top: -1%;
+  width: 50%;
+  height: 50%;  
 }
 .conteudo h1 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-family: 'Raleway'; font-family: 50px;
   color:  rgb(121, 63, 16) ;
-  padding: 1%;
+  padding: 3%;
   text-align: center;
   margin: 10px;
 }
@@ -79,12 +79,11 @@
   text-align: center;
   margin: 50px;      
 }  
-a {
+.enviarprojeto a {
   text-decoration: none;
   color: gray;
   font-size: 18px;
 }
-
 #bg-sobre {
   background-color: #f3f3f3;
 }
@@ -195,15 +194,10 @@ a {
 
 .formulario {  
   background-color:  rgb(248, 248, 248) ;
-  max-width: 400px;  
-  padding: 15px;     
+  max-width: 500px;        
   border: 2px solid #fbf8f8;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  margin-left: 38%;
- 
+  margin-left: 80vh;
 }
 form input[type=email],
 form input[type=text],
@@ -249,7 +243,7 @@ form input[type=submit]:hover{
   color: rgb(107, 107, 107);
   font-family: 'Source Sans Pro', sans-serif;  
   text-align: center;
-  margin: 12px;
+  margin-left: 25px;
   font-weight: bold;
 } 
 
