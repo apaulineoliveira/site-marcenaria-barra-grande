@@ -29,9 +29,11 @@
 #
 <br>
 <h3>Futuras implementações</h3>
+<br></br>
+<p>⚠️ A escolha e disposição visual deste projeto está de acordo às exigências do <b>cliente</b>.</p>
 ✅ Melhorar o layout com css - Construir um carrousel com imagens que remetam ao cotidiano da empresa - com <b>Bootstrap</bold>; <br>
 ✅ Implementar mais interatividade com JS criando um <b>filtro de galeria</b> contendo os produtos que a empresa possui/vende; <br>
 ◻️ Funcionalidades com React Js.
 
-<p>⚠⚠️ A escolha e disposição visual deste projeto está de acordo às exigências do cliente <b>cliente</b>.</p>
+
 
