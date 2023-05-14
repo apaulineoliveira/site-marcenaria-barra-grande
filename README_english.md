@@ -20,7 +20,7 @@
    ```
 <br>
 
-<p>The <code>forEach()</code> method was used to traverse the array and pass a <b>callback</b> function for each element of the array together with the current value (<code>item</b> code>) and then passed a conditional structure <code>if/else</code>.</p>
+<p>The <code>forEach()</code> method was used to traverse the array and pass a <b>callback</b> function for each element of the array together with the current value <code>item</code>) and then passed a conditional structure <code>if/else</code>.</p>
 
 <br>
 <h3 align="center">About Bootstrap</h3>
